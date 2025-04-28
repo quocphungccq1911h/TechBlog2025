@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace TechBlog2025.Data.Domain.Content
+namespace TechBlog2025.Core.Domain.Content
 {
     [Table("Posts")]
     [Index(nameof(Slug), IsUnique = true)]
